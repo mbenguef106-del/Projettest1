@@ -60,26 +60,41 @@ a{
       background-color: #FD551D; 
       border-radius: 20px; 
        padding: 30px 20px 50px 60px;
-       text-align: center;
-       align-items: center; 
-       
+      justify-content: center;
       color: white;
       height: 300px;
       flex-direction: column;
        margin: 5px 52px 100px 100px;
+       text-align: center;
+     }
+     .hero1{
+      background-color: #FD551D; 
+      border-radius: 20px; 
+       padding: 30px 20px 50px 60px;
+      justify-content: center;
+      color: white;
+      height: 300px;
+      flex-direction: column;
+       margin: 5px 52px 100px 100px;
+     
      }
       .mesure{
         background-color: #FFFFFF1A;
-        padding: 20px 50px 100px 0px; 
-        margin: 10px 210px 50px 150px;
-        align-items: center;
-        text-align: center;
-         list-style-position: inside;
-         height: 300px;
-         width: 600px;
-         }
+        /* padding: 50px 0px; */
+        /* margin: 20px 142px; */
+        list-style-position: inside;
+         /* position: relative; */
+         width: 650px;
+     height: 200px; 
+    margin: 5px -320px 0px 150px;padding: 70px 6Opx;
+    line-height: 1.8;
+}
+
+        
+         
            .imgL{
-            margin: 5px 200px 0px 50px ;
+             padding: 0px;
+             margin: 0px 150px;
         }
 
     .solution{
@@ -91,12 +106,14 @@ a{
     justify-content: center;
     margin: 5px 50px 0px 150px;padding: 70px 6Opx;
      flex-direction: column;
-     width: 600px;
-     height: 70px; 
+     width: 620px;
+     height: 80px; 
         gap: 10px;
       }
       .uni{
         display: flex;
+        top: 100%;
+        align-content: center;
     
       }
       
@@ -122,7 +139,7 @@ a{
     
     .homm{
         display: flex;
-        margin: 10px 5px;
+        margin: 10px 5px;padding: 30px;
     }
     .container3{
         display: flex;
@@ -190,16 +207,16 @@ a{
            align-items: center;
              width: 1050px;
             height: 200px; 
-            margin: 20px;
+            margin: 60px;
         
         }
         .iso1{
             float: left;
              border:  1px solid orangered;
-              padding: 30px 70px;
+              padding: 30px 60px ;
               background-color: antiquewhite;
               border-radius: 5px;
-              
+              line-height: 1.5;
         }
         .iso2{
              border:  1px solid orangered;
@@ -207,6 +224,7 @@ a{
             float: right;
             background-color: antiquewhite;
            border-radius: 5px;
+           
             /* FIN 5 */
         }
         
@@ -249,9 +267,9 @@ a{
             /* FIN 8 */
             .t1{
                 background-color: #F8F8F8;
-                padding: 10px;
+                
                 border: #FD551D;
-                margin: 0px 20px 30px 40px;
+                ;
             }
             .prin{
                 display: flex;
@@ -259,27 +277,22 @@ a{
                 margin: 20px;
                 
             }
-            .parent{
-                display: flex;
-                background-color: #F8F8F8;
-                padding: 20px 40px 20px 40px;
-                margin: 10 100px 10px 100px;
-                gap: 20px;
-                width: 1050px;
-            }
+            
             .D1{
                 background-color: #FD551D;
-                 padding: 50px; 
+                 padding: 30px 60px; 
                 height:400px;
                color:white;
                /* width: 400px; */
+               margin: 50px 20px 20px 10px;
                 
             } 
             .item1{
-                padding:1px;
+                padding:0px;
                 float: left;
                 ;
             }
+            
 
             .dial{
                 display: flex;
@@ -293,14 +306,16 @@ a{
                 margin: 0px 0px 0px 10px;
             }
             .one2{
-                padding: 1px 50px 10px 20px;
-                margin: 0px 10px 10px 100px;
+                padding: 1px 80px 10px 20px;
+                margin: 20px 0px 10px 10px
+                line-height: 0%;
             }
             .formu{
                 height: 20px;
                 display: flex;
                 margin-bottom: 15px;
                 gap: 10px;
+                line-height: 2;
             }
             /* partie6 */
 
@@ -342,27 +357,23 @@ a{
                 
             }
             /* FIN5 */
-            .gene{
-                 display: flex; 
-                 justify-content: center;
-                 padding: 20px;
-                 
-            }
+            
             .imgZ1{
                 padding: 10px 0px 200px 0px;
                 margin: 10px ;
                 
             }
             footer{
-                padding: 300px;
+                padding: 200px;
                 text-align: center;
-                 margin-bottom: 1rem;
+                 margin-bottom: 3rem;
+                 margin-left: 10px;
+                 margin-top: 70px;
             }
             .resp{
                 margin: 0px;
                 height: 50px;
                 padding: 0px;
-                /* width: 100px; */
             }
             input{
                 padding: 5px 25px 5px 30px;
@@ -372,4 +383,47 @@ a{
 
             button{
                 
+            }
+            .item0{
+                top: 0%;
+                margin:0;
+                padding: 0;
+            }
+
+
+            /* partie 9  */
+            .defit{
+                padding: -100px;
+                margin-top: 13%;margin-bottom: 1%;
+                margin-left: 0%;
+                align-items: center;
+            }
+            .diall{
+                background-color: #F8F8F8;
+                width:  800px;
+                border-radius: 5px;
+                padding: 20px;
+                margin: 0px -60px 20px 50px; 
+                font-size: 14px;
+                /* line-height: 1.5; */
+            }
+            .bal{
+                background-color: #FD551D;
+                border-radius: 5px;
+                padding: 20px;
+                  margin:  0px -60px 20px 50px; 
+                   font-size: 14px;
+                /* line-height: 1.5; */
+            }
+            .leg{
+                display: flex;
+                gap: 30px;
+                
+            }
+            .hcost{
+                background-color: #F8F8F8;
+                margin: 0px;
+                text-align: left;
+                justify-content: flex-end;
+                 float: left;
             }
